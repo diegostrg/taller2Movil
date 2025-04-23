@@ -1,0 +1,27 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapaActivity">
+
+        <org.osmdroid.views.MapView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/osmMap" />
+
+        <EditText
+            android:id="@+id/ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            android:hint="Buscar ubicacion"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="@color/morado"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
